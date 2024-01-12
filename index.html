@@ -25,7 +25,7 @@
 					<li><a href="#">Nav Link 5</a></li>
 					<li><a href="#">Nav Link 6</a></li>
 					<li><a href="#">Nav Link 7</a></li>
-					<li><button onclick="clickMe()" id="clickMeTask3">Click Me</button></li>
+					<li><a href="#" onclick="clickMe()" id="clickMeTask3">Click Me</a></li>
 					<li><a href="clearPage.html">Clear</a></li>
 					
 				</ul>
@@ -64,13 +64,13 @@
 
 					<h3>Task 1 - The Image</h3>
 					<img onmouseover= "showButton()" src="assets/img/compIcon.png" id="imageTask1"><br />
-					<button onclick="hideImage()" style="display:none" id="buttonTask1">Click Me</button>
+					<button onclick="hideImage()" style="display:none" id="buttonTask1" class="btn p-2">Hide Image</button>
 					<hr>
 										
 					<h3>Task 2 - The Table</h3>
-					<button onclick="tableRed()" id="buttonTask2Red">Table Red</button>
-					<button onclick="tableGreen()" id="buttonTask2Green">Table Green</button>
-					<button onclick="tableBlue()" id="buttonTask2Blue">Table Blue</button>
+					<button class="btn" onclick="tableRed()" id="buttonTask2Red">Table Red</button>
+					<button class="btn" onclick="tableGreen()" id="buttonTask2Green">Table Green</button>
+					<button class="btn" onclick="tableBlue()" id="buttonTask2Blue">Table Blue</button>
 					
 					<table class="table table-striped" id="tableTask2">
 						<thead>
